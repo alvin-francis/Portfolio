@@ -31,14 +31,22 @@ class MethodOne:
         self.label2 = tk.Label(self.root, text = 'Simple cooling capacity estimation using area only', font = ("Arial", 8))
         self.label2.pack(padx=10,pady=5)
 
-        self.description = tk.Label(self.root, text='Enter Area (square meters)', font = ('Arial', 7))
+        self.description = tk.Label(self.root, text='Enter Area', font = ('Arial', 10))
         self.description.pack()
 
-        #self.m1_frame = tk.Frame(self.root)
-        #di pa tapos tooooooooooooooooooooooo!!!!!!!!!!!!!!!!!
+        self.m1_frame = tk.Frame(self.root)
 
-        self.area = tk.Entry(self.root)
-        self.area.pack(padx=10, pady=10)
+        self.area = tk.Entry(self.m1_frame)
+        self.area.grid(padx=5,row=0, column = 0)
+
+        self.choice = tk.StringVar()
+        self.choice.set("Square Meters")
+        self.options = ["Square Meters","Square Foot"]
+
+        self.dropdown = tk.OptionMenu(self.m1_frame, self.choice, *self.options)
+        self.dropdown.grid(row=0, column = 1, sticky = tk.E+tk.W)
+
+        self.m1_frame.pack(pady=15)
 
         self.btn = tk.Button(self.root, text = 'Calculate', command = self.calculate)
         self.btn.pack()
@@ -136,7 +144,10 @@ class MethodOne:
     def calculate(self):
         try:
             area=float(self.area.get())
-            cap_btu = 80 * area * 10.764
+            if self.choice.get() == "Square Meters":
+                cap_btu = 80 * area * 10.764
+            else:
+                cap_btu = area * 80
             computed_hp = cap_btu / 9500
 
             units = 1
