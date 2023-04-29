@@ -1,3 +1,4 @@
 # Portfolio
-A portfolio of the personal projects I have made\nSome of these are as follows:
+<p>A portfolio of the personal projects I have made.<br>
+Some of these are as follows:</p>
   
