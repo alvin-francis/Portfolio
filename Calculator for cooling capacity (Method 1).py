@@ -41,7 +41,7 @@ class MethodOne:
 
         self.choice = tk.StringVar()
         self.choice.set("Square Meters")
-        self.options = ["Square Meters","Square Foot"]
+        self.options = ["Square Meters","Square Feet"]
 
         self.dropdown = tk.OptionMenu(self.m1_frame, self.choice, *self.options)
         self.dropdown.grid(row=0, column = 1, sticky = tk.E+tk.W)
@@ -69,7 +69,7 @@ class MethodOne:
             self.thankyou_frame.destroy()
         except:
             pass
-        manualtext='1.)Enter the floor area in the text box.\n2.)Choose your units (square meters or square foot).\n3.)Click the Calculate button'
+        manualtext='1.)Enter the floor area in the text box.\n2.)Choose your units (square meters or square feet).\n3.)Click the Calculate button'
         self.inst_frame=tk.Frame(self.root)
         self.inst_frame.rowconfigure(0, weight=4)
         manual_label = tk.Label(self.inst_frame, text=manualtext, font=('Times', 10))
