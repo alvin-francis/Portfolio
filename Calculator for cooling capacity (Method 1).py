@@ -92,7 +92,7 @@ class MethodOne:
             self.thankyou_frame.destroy()
         except:
             pass
-        manualtext='Get the floor area of a room, make sure it is in square foot. Multiply it by 80. (80 is the value of a constant know as "heat factor"). You will get BTU/hr. Divide this number by 9500 to get the cooling capacity in HP!'
+        manualtext='Get the floor area of a room, make sure it is in square feet. Multiply it by 80. (80 is the value of a constant know as "heat factor"). You will get BTU/hr. Divide this number by 9500 to get the cooling capacity in HP!'
         self.manual_frame=tk.Frame(self.root)
         self.manual_frame.rowconfigure(0, weight=4)
         manual_label = tk.Label(self.manual_frame, text=manualtext, wraplength=300, justify ='center', font = ('Times', 10))
