@@ -13,9 +13,8 @@
   ![MET2](https://github.com/alvin-francis/Portfolio/assets/104663627/49205fcc-a4bd-4d04-897d-44a8c46e0f84)
 
 
-  <br>
-  <br>
+  
   
   -A simple blackjack game using object-oriented programming. (but it has no GUI... yet) <br>
 
-  -Simple calculator to convert energy units (also has not GUI yet but I'm working on it)<br>
+  -Simple calculator to convert energy units (also has no GUI yet but I'm working on it)<br>
