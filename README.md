@@ -1,6 +1,6 @@
 # A portfolio of the personal projects I have made
-<p>I made this to showcase my skill proficiency in the language. It's not much, but as a non-CS/IT graduate I'm proud of it.</p>
-<p>These are some of my personal projects I made using Python. <br>
+<p>I made this to showcase my skill proficiency in Python. It's not much, but as a non-CS/IT graduate I'm proud of it.</p>
+<p>These are some of my personal projects I made. <br>
   
   -Two methods of calculating the cooling capacity of a room (it has a GUI on tkinter!).<br>
 
