@@ -1,6 +1,5 @@
 # A portfolio of the personal projects I have made
-<p>I made this to showcase my skill proficiency in Python. It's not much, but as a non-CS/IT graduate I'm proud of it.</p>
-<p>These are some of my personal projects I made. <br>
+<p>I made this to showcase my skill proficiency in Python. It's not much, but as a non-CS/IT graduate I'm proud of it. These personal projects include:</p>
   
   -Two methods of calculating the cooling capacity of a room (it has a GUI on tkinter!).<br>
 
@@ -14,6 +13,8 @@
   ![MET2](https://github.com/alvin-francis/Portfolio/assets/104663627/49205fcc-a4bd-4d04-897d-44a8c46e0f84)
 
 
+  <br>
+  <br>
   
   -A simple blackjack game using object-oriented programming. (but it has no GUI... yet) <br>
 
